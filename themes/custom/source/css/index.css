@@ -14,8 +14,8 @@
 
 ._post_preview ._cover {
   background: #202020;
-  min-width: 400px;
-  min-height: 300px;
+  min-width: 320px;
+  min-height: 240px;
   max-width: 650px;
 }
 
@@ -26,7 +26,7 @@
 ._post_preview ._header {
   position: absolute;
   left: 0;
-  min-width: 400px;
+  min-width: 320px;
   padding: 10px;
   margin: 0;
   width: 100%;
