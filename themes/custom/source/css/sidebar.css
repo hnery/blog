@@ -1,0 +1,127 @@
+:root {
+  --sidebar-width-neg: -200px;
+  --sidebar-width: 200px;
+}
+
+ body {
+   overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar-wrapper.toggled {
+  padding-left: var(--sidebar-width);
+}
+
+#sidebar {
+  left: var(--sidebar-width);
+  margin-left: var(--sidebar-width-neg);
+  position: fixed;
+  width: 0px;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 1000;
+}
+
+#sidebar-wrapper.toggled #sidebar {
+  width: var(--sidebar-width);
+}
+
+#main-content {
+  width: 100%;
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar-wrapper.toggled #main-content {
+  position: absolute;
+  margin-right: var(--sidebar-width-neg);
+}
+
+.sidebar-list {
+  position: absolute;
+  width: var(--sidebar-width);
+  margin: 0;
+  padding: 60px 50px;
+  list-style: none;
+}
+
+.sidebar-list li {
+  line-height: 25px;
+}
+
+.sidebar-list li a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+}
+
+.sidebar-list li a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.sidebar-list li a:active,
+.sidebar-list li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-list > .sidebar-brand {
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+@media(min-width:768px) {
+  #sidebar-wrapper {
+    padding-left: var(--sidebar-width);
+  }
+
+  #sidebar-wrapper.toggled {
+    padding-left: 0;
+  }
+
+  #sidebar {
+    width: var(--sidebar-width);
+  }
+
+  #sidebar-wrapper.toggled #sidebar {
+    width: 0;
+  }
+
+  #main-content {
+    padding: 10px 100px 10px 20px;
+    position: relative;
+  }
+
+  #sidebar-wrapper.toggled #main-content {
+    position: relative;
+    margin-right: 0;
+    padding: 10px 20px;
+  }
+}
+
+#sidebar-toggle {
+  position: fixed;
+  margin: 8px;
+  padding: 6px 9px;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1000;
+  top: 0;
+  color: inherit;
+  border-radius: 16px;
+}

@@ -1,0 +1,41 @@
+._index_root {
+  max-width: 768px;
+  text-align: center;
+}
+
+._post_preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  min-height: 300px;
+}
+
+._post_preview ._cover {
+  background: #202020;
+  min-width: 400px;
+  min-height: 300px;
+  max-width: 650px;
+}
+
+._post_preview ._cover img {
+  opacity: .5;
+}
+
+._post_preview ._header {
+  position: absolute;
+  left: 0;
+  min-width: 400px;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+
+._post_preview ._title {
+  color: #DDD;
+}
+
+._post_preview ._excerpt {
+  color: #DDD;
+}

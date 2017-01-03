@@ -1,0 +1,16 @@
+<div class='_post_root'>
+  <div class='text-center'>
+    <h1><%- page.title %></h1>
+    <% if(page.excerpt) { %>
+      <span class='lead'>
+        <%- page.excerpt %>
+      </span>
+    <%} %>
+  </div>
+  <div class='row'>
+    <%- page.more %>
+  </div>
+  <div class='text-center lead _date'>
+    <%= date(page.date, config.date_format) %> <br />
+  </div>
+</div>

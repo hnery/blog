@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= config.title %></title>
+    <%- css(
+    'css/bootstrap.css',
+    'css/index.css',
+    'css/post.css',
+    'css/sidebar.css')%>
+  </head>
+  <body>
+    <div id="sidebar-wrapper">
+      <%- partial('_partial/sidebar') %>
+      <div id="main-content">
+        <div class="container-fluid">
+          <%- body %>
+        </div>
+      </div>
+    </div>
+    <a href="#sidebar-toggle" id="sidebar-toggle">
+      <span class="glyphicon glyphicon-menu-hamburger">
+    </a>
+    <%- js(
+    'js/jquery-3.1.1',
+    'js/bootstrap',
+    'js/main') %>
+  </body>
+</html>
