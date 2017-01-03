@@ -12,4 +12,4 @@ layout: info
 - I want to get better at **photography**
 - I always feel like **traveling**
 - I went around **[Asia](http://asiaseeit.tumblr.com/)** and wrote about it
-- My resume is **[here](/resume)**
+- My resume is **{% post_link resume here %}**

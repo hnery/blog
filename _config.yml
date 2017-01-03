@@ -12,14 +12,14 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://hnery.github.io/blog
+root: /blog/
 permalink: :title/
 permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public 
+public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -70,4 +70,4 @@ theme: custom
 deploy:
   type: git
   repo: https://github.com/hnery/blog
-  branch: deploy
+  branch: gh-pages
