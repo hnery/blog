@@ -1,5 +1,5 @@
 :root {
-  --post-max-text-width: 600px;
+  --post-max-text-width: 640px;
 }
 
 ._post_root {
@@ -22,9 +22,10 @@
   max-width: var(--post-max-text-width);
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
 }
 
-@media(max-width: 630px) {
+@media(max-width: 680px) {
   ._post_root p,
   ._post_root ul,
   ._post_root ol,
@@ -35,8 +36,9 @@
   ._post_root h4,
   ._post_root h5,
   ._post_root h6 {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
   }
 }
 
@@ -45,7 +47,7 @@
 }
 
 ._post_root ._date {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 ._post_root > figure {

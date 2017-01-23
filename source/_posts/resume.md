@@ -7,7 +7,7 @@ henry.lung@hotmail.com
 <!-- More -->
 ### Facts
 - I am **Software Engineer** who has worked in the industry for **a little while**
-- I should be proficient in building products using **React Native** and **Objective-C (iOS)** ...and whatever else that I can be taught and/or learn
+- I should be proficient in building products using **React Native** and **Objective-C (iOS)** and whatever else that I can be taught and/or learn
 
 ---
 ### Industry Experience

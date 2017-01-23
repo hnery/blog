@@ -1,6 +1,7 @@
 ._index_root {
   max-width: 768px;
   text-align: center;
+  margin-top: 20px;
 }
 
 ._post_preview {
@@ -16,7 +17,7 @@
   background: #202020;
   min-width: 320px;
   min-height: 240px;
-  max-width: 650px;
+  max-width: 768px;
 }
 
 ._post_preview ._cover img {
@@ -25,6 +26,12 @@
 
 ._post_preview ._header {
   position: absolute;
+  top: 50%;
+  -moz-transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+  -o-transform: translate(0%,-50%);
+  -webkit-transform: translate(0%,-50%);
+  transform: translate(0%,-50%);
   left: 0;
   min-width: 320px;
   padding: 10px;
