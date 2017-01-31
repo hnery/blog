@@ -1,0 +1,6 @@
+._site_header a,
+._site_header a:hover,
+._site_header a:focus {
+  text-decoration: none;
+  color: #666;
+}

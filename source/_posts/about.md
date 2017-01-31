@@ -1,8 +1,11 @@
 ---
 title: Hello
 date: 2017-01-02 16:44:25
-layout: info
+layout:
+tags:
+- me
 ---
+<br>
 - My name is **Henry Lung**
 - I am from **Vancouver** BC, Canada
 - I work in the **Silicon Valley** for some un-noteworthy large tech company

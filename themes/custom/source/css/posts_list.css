@@ -1,0 +1,41 @@
+._post_preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 20px;
+  min-height: 210px;
+}
+
+._post_preview ._cover {
+  background: #202020;
+  min-height: 210px;
+  max-width: 768px;
+  width: 100%;
+}
+
+._post_preview ._cover img {
+  opacity: .5;
+}
+
+._post_preview ._header {
+  position: absolute;
+  top: 50%;
+  -moz-transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+  -o-transform: translate(0%,-50%);
+  -webkit-transform: translate(0%,-50%);
+  transform: translate(0%,-50%);
+  left: 0;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+
+._post_preview ._title {
+  color: #DDD;
+}
+
+._post_preview ._excerpt {
+  color: #DDD;
+}

@@ -1,7 +1,9 @@
 ---
 title: Henry Lung
 date: 2017-01-01 21:44:34
-layout: info
+layout:
+tags:
+- resume
 ---
 henry.lung@hotmail.com
 <!-- More -->

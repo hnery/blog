@@ -1,9 +1,14 @@
 ---
 title: Lorem Ipsum
 date: 2016-12-23 22:02:29
-tags: photos
 photos:
 - /lorem/wings_cafe.jpg
+categories:
+- lorem
+- hello
+tags:
+- photos
+- wings
 ---
 What is Lorem Ipsum? <!--- more --->
 

@@ -1,0 +1,28 @@
+<%- css('css/archive.css') %>
+<div class='_index_root center-block'>
+  <%- partial('_partial/header') %>
+  <% if(!is_year() && !is_month()) { %>
+    <h3>categories</h3>
+    <% site.categories.each(function(category) { %>
+      <code><%- link_to(category.path, category.slug) %></code>
+    <% }) %>
+    <h3>tags</h3>
+    <% site.tags.each(function(tag) { %>
+      <code><%- link_to(tag.path, tag.slug) %></code>
+    <% }) %>
+    <h3>archives</h3>
+    <code>
+    <%- list_archives({
+      type: 'monthly',
+      style: 'none',
+      show_count: false,
+      separator: '</code><br><code>',
+      transform: (name) => {
+        return name;
+      }
+    }) %>
+    </code>
+  <% } else { %>
+    <%- partial('_partial/posts_list') %>
+  <% } %>
+</div>
