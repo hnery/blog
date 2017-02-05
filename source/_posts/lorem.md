@@ -1,8 +1,8 @@
----
 title: Lorem Ipsum
 date: 2016-12-23 22:02:29
 photos:
 - /lorem/wings_cafe.jpg
+- /lorem/wings_cafe_compressed.jpg
 categories:
 - lorem
 - hello

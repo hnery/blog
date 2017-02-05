@@ -1,0 +1,33 @@
+._img-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+._img-container ._placeholder {
+  padding-bottom: 75%;
+}
+
+._img-container img {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+._img-container img.loaded {
+  opacity: 0.5;
+}
+
+._img-compressed {
+  filter: blur(30px);
+  transform: scale(1);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

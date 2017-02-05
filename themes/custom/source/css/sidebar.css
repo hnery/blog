@@ -104,8 +104,8 @@
   }
 
   #main-content {
-    padding: 20px 100px 10px 20px;
     position: relative;
+    padding: 10px 20px;
   }
 
   #sidebar-wrapper.toggled #main-content {

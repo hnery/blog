@@ -14,10 +14,6 @@
   width: 100%;
 }
 
-._post_preview ._cover img {
-  opacity: .5;
-}
-
 ._post_preview ._header {
   position: absolute;
   top: 50%;

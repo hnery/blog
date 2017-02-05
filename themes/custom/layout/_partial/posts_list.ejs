@@ -7,7 +7,12 @@
           <figure class='center-block _post_preview'>
             <div class='_cover'>
               <% if(post.photos[0]) { %>
-              <%- image_tag(post.photos[0], { class: 'img-responsive' }) %>
+                <%-
+                  partial('_partial/img_loading', {
+                    final: post.photos[0],
+                    compressed: post.photos[1]
+                  })
+                %>
               <% } %>
             </div>
             <h3 class='text-center _header'>
@@ -23,6 +28,6 @@
           </figure>
         </a>
       </li>
-  <% } %>
-<% }) %>
+    <% } %>
+  <% }) %>
 </ul>
