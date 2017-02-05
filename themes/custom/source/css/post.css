@@ -9,6 +9,15 @@
   margin-right: auto;
 }
 
+@media(min-width:768px) {
+  #sidebar-wrapper ._post_root {
+    padding-right: 40px;
+  }
+  #sidebar-wrapper.toggled ._post_root {
+    padding-right: 0px;
+  }
+}
+
 ._post_root p,
 ._post_root ul,
 ._post_root ol,
@@ -42,7 +51,7 @@
   }
 }
 
-._post_root img {
+._post_root ._img-container {
   margin-bottom: 10px;
 }
 

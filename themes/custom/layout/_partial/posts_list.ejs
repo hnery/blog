@@ -1,16 +1,16 @@
 <%- css('css/posts_list.css') %>
 <ul class='list-unstyled'>
   <% page.posts.each(function(post) { %>
-    <% if(post.layout === 'post') { %>
+    <% if (post.layout === 'post') { %>
       <li class='row'>
         <a href="<%- url_for(post.path) %>">
           <figure class='center-block _post_preview'>
             <div class='_cover'>
-              <% if(post.photos[0]) { %>
+              <% if (post.photos[0]) { %>
                 <%-
                   partial('_partial/img_loading', {
-                    final: post.photos[0],
-                    compressed: post.photos[1]
+                    final: '/' + post.slug + '/' + post.photos[0],
+                    compressed: '/' + post.slug + '/' + post.photos[1]
                   })
                 %>
               <% } %>
