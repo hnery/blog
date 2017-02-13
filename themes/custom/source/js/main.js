@@ -1,9 +1,3 @@
-// Sidebar
-$("#sidebar-toggle").click(function(e) {
-  e.preventDefault();
-  $("#sidebar-wrapper").toggleClass("toggled");
-});
-
 // Image loading
 window.onload = function() {
   let img_containers = document.querySelectorAll('._img-container');

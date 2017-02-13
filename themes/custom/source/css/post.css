@@ -4,18 +4,9 @@
 
 ._post_root {
   color: #666;
-  max-width: 900px;
+  max-width: 768px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media(min-width:768px) {
-  #sidebar-wrapper ._post_root {
-    padding-right: 40px;
-  }
-  #sidebar-wrapper.toggled ._post_root {
-    padding-right: 0px;
-  }
 }
 
 ._post_root p,
@@ -32,6 +23,11 @@
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+._post_root ul,
+._post_root ol {
+  padding-left: 30px;
 }
 
 @media(max-width: 680px) {

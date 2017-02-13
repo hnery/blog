@@ -4,21 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
     <title><%= config.title %></title>
-    <%- css('css/bootstrap.min.css', 'css/index.css')%>
+    <%- css('css/bootstrap.min.css')%>
     <%- css('css/img_loading.css') %>
   </head>
   <body>
-    <div id="sidebar-wrapper">
-      <%- partial('_partial/sidebar') %>
-      <div id="main-content">
-        <div class="container-fluid">
-          <%- body %>
-        </div>
-      </div>
+    <%- partial('_partial/nav') %>
+    <div class="_content container-fluid">
+      <%- body %>
     </div>
-    <a href="#sidebar-toggle" id="sidebar-toggle">
-      <span class="glyphicon glyphicon-menu-hamburger">
-    </a>
     <%- js(
     'js/jquery-3.1.1',
     'js/bootstrap',
