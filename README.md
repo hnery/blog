@@ -1,3 +1,3 @@
-# hnery
+# hnerylnug
 
-Development of my blog
+Source code for my website at [hnerylnug.com](www.hnerylnug.com).

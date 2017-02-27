@@ -1,17 +1,27 @@
 ---
 title: Hello
 date: 2017-01-02 16:44:25
-layout:
+photos:
+- me.jpg
+- me_compressed.jpg
 tags:
 - me
 ---
-<br>
+---
+#### Facts
 - My name is **Henry Lung**
-- I am from **Vancouver** BC, Canada
-- I work in the **Silicon Valley** for some un-noteworthy large tech company
-- I use to play **DotA**, not anymore...
+- I am from **[Vancouver](https://en.wikipedia.org/wiki/Vancouver)** BC, Canada
+- I work as a Software Engineer in the **[Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley)**
 - I like to **eat** food
-- I want to get better at **photography**
-- I always feel like **traveling**
+- I have **[photography](/tags/photos)** as a hobby
+- I want to **[travel](/tags/travel)** more
+- I write about **whatever** that I am thinking about
 - I went around **[Asia](http://asiaseeit.tumblr.com/)** and wrote about it
-- My resume is **{% post_link resume here %}**
+- My resume is **[here](/resume)**
+---
+#### Note
+This site provides an identity for myself and a place to share my thoughts and
+adventures in the form of writing and photography.
+
+---
+{% img_x me.jpg me_compressed.jpg %}

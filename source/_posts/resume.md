@@ -1,15 +1,16 @@
 ---
 title: Henry Lung
 date: 2017-01-01 21:44:34
-layout:
+photos:
+- sf.jpg
+- sf_compressed.jpg
 tags:
 - resume
 ---
 henry.lung@hotmail.com
 <!-- More -->
-### Facts
-- I am **Software Engineer** who has worked in the industry for **a little while**
-- I should be proficient in building products using **React Native** and **Objective-C (iOS)** and whatever else that I can be taught and/or learn
+- I am a **Software Engineer** who has worked in the industry for **a little while**
+- Have built products using **React Native** and **Objective-C (iOS)** and but am able to use other tools
 
 ---
 ### Industry Experience
@@ -42,3 +43,6 @@ henry.lung@hotmail.com
 *Jan 2014 –May 2014*
 - **CPSC 310**: Introduction to Software Engineering   
 - Managed 7 undergrad term long projects and provided guidance for success
+
+---
+{% img_x sf.jpg sf_compressed.jpg %}

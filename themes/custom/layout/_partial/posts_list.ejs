@@ -31,3 +31,6 @@
     <% } %>
   <% }) %>
 </ul>
+<% if (page.next || page.prev) { %>
+  <%- paginator({}) %>
+<% } %>
