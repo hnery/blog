@@ -14,4 +14,11 @@
   <div class='text-center lead _date'>
     <%- date(page.date, config.date_format) %> <br />
   </div>
+  <div class='text-center'>
+    <code>
+    <% if (!moment(page.updated).isSame(page.date)) { %>
+      Updated: <%- date(page.updated, config.date_format) %> <br />
+    <% } %>
+    </code>
+  </div>
 </div>
