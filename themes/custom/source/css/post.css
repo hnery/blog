@@ -18,7 +18,8 @@
 ._post_root h3,
 ._post_root h4,
 ._post_root h5,
-._post_root h6 {
+._post_root h6,
+._post_root table {
   max-width: var(--post-max-text-width);
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +49,14 @@
 }
 
 ._post_root ._img-container {
+  margin-bottom: 10px;
+}
+
+._post_root table ._img-container {
+  margin-bottom: 0px;
+}
+
+._post_root table {
   margin-bottom: 10px;
 }
 
