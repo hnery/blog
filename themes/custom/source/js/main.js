@@ -20,6 +20,6 @@ window.onload = function() {
       img_final.classList.add('_img-final');
       img_compressed.classList.remove('loaded');
     };
-    img_container.prepend(img_final);
+    img_container.append(img_final);
   });
 }

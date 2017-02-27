@@ -13,8 +13,8 @@ tags:
 - I am from **[Vancouver](https://en.wikipedia.org/wiki/Vancouver)** BC, Canada
 - I work as a Software Engineer in the **[Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley)**
 - I like to **eat** food
-- I have **[photography](/tags/photos)** as a hobby
-- I want to **[travel](/tags/travel)** more
+- I have **photography** as a hobby
+- I want to **travel** more
 - I write about **whatever** that I am thinking about
 - I went around **[Asia](http://asiaseeit.tumblr.com/)** and wrote about it
 - My resume is **[here](/resume)**
