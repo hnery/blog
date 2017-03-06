@@ -9,8 +9,8 @@
               <% if (post.photos[0]) { %>
                 <%-
                   partial('_partial/img_loading', {
-                    final: '/' + post.slug + '/' + post.photos[0],
-                    compressed: '/' + post.slug + '/' + post.photos[1]
+                    img: '/' + post.slug + '/' + post.photos[0],
+                    ext: post.photos[0].split('.').pop(),
                   })
                 %>
               <% } %>

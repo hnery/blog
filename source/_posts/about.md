@@ -3,7 +3,6 @@ title: Hello
 date: 2017-01-02 16:44:25
 photos:
 - me.jpg
-- me_compressed.jpg
 tags:
 - me
 ---
@@ -19,9 +18,8 @@ tags:
 - I went around **[Asia](http://asiaseeit.tumblr.com/)** and wrote about it
 - My resume is **[here](/resume)**
 ---
-#### Note
 This site provides an identity for myself and a place to share my thoughts and
 adventures in the form of writing and photography.
 
 ---
-{% img_x me.jpg me_compressed.jpg %}
+{% img_x me.jpg %}

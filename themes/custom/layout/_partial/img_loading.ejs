@@ -1,4 +1,10 @@
-<div class="_img-container" data-large=<%= final %>>
-  <%- image_tag(compressed, { class: '_img-compressed' }) %>
+<div class="_img-container" data-large=<%= img %>>
+  <div>
+  <%- image_tag([
+        img.slice(0, img.length - ext.length - 1),
+        '_compressed',
+        '.' + ext
+      ].join(''), { class: '_img-compressed' }) %>
+  </div>
   <div class="_placeholder"></div>
 </div>

@@ -22,8 +22,15 @@
 ._post_preview ._cover {
   background: #202020;
   min-height: 210px;
+  max-height: 480px;
   max-width: 640px;
+  overflow: hidden;
   width: 100%;
+}
+
+._post_preview ._cover ._img-container {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 ._post_preview ._header {

@@ -3,7 +3,6 @@ title: Henry Lung
 date: 2017-01-01 21:44:34
 photos:
 - sf.jpg
-- sf_compressed.jpg
 tags:
 - resume
 ---
@@ -45,4 +44,5 @@ henry.lung@hotmail.com
 - Managed 7 undergrad term long projects and provided guidance for success
 
 ---
-{% img_x sf.jpg sf_compressed.jpg %}
+
+{% img_x sf.jpg %}

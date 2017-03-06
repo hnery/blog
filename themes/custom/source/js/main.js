@@ -9,12 +9,14 @@ window.onload = function() {
     let img_preview = new Image();
     img_preview.src = img_compressed.src;
     img_preview.onload = function () {
-     img_compressed.classList.add('loaded');
+      img_placeholder.style.paddingBottom = (this.height / this.width * 100) + "%";
+      img_compressed.classList.add('loaded');
     };
 
     let img_final = new Image();
     img_final.src = img_container.dataset.large;
     img_final.onload = function () {
+      img_placeholder.style.paddingBottom = (this.height / this.width * 100) + "%";
       img_final.classList.add('loaded');
       img_final.classList.add('img-responsive');
       img_final.classList.add('_img-final');
