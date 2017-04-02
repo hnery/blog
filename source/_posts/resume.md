@@ -8,8 +8,8 @@ tags:
 ---
 henry.lung@hotmail.com
 <!-- More -->
-- I am a **Software Engineer** who has worked in the industry for **a little while**
-- Have built products using **React Native** and **Objective-C (iOS)** and but am able to use other tools
+- **Software Engineer** who has used **Objective-C** and **React Native** for the last couple years
+- Able to pick up and be **effective** in any technology stack in a quick manner
 
 ---
 ### Industry Experience
@@ -33,7 +33,7 @@ henry.lung@hotmail.com
 #### Bachelors of Science
 **University of British Columbia, Vancouver BC**
 *Sep 2008 - May 2014*
-- Majoring in **Computer Science** with an Option in **Software Engineering**
+- Majored in **Computer Science** with an Option in **Software Engineering**
 
 ---
 ### Other
@@ -45,4 +45,4 @@ henry.lung@hotmail.com
 
 ---
 
-{% img_x sf.jpg %}
+{% img_unveil sf.jpg %}

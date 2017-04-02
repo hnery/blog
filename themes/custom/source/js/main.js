@@ -1,27 +1,29 @@
-// Image loading
-window.onload = function() {
-  let img_containers = document.querySelectorAll('._img-container');
+$(document).ready(function() {
 
-  img_containers.forEach(function(img_container) {
-    let img_compressed = img_container.querySelector('._img-compressed');
-    let img_placeholder = img_container.querySelector('._placeholder');
+  $("._img-container").unveil(0, function() {
+    let lg = this.getAttribute('data-large');
+    let sm = this.getAttribute('data-small');
+    let ph = this.querySelector('._placeholder');
 
-    let img_preview = new Image();
-    img_preview.src = img_compressed.src;
-    img_preview.onload = function () {
-      img_placeholder.style.paddingBottom = (this.height / this.width * 100) + "%";
-      img_compressed.classList.add('loaded');
+    let img_sm = new Image();
+    img_sm.src = sm;
+    img_sm.onload = function () {
+      if (ph) {
+        ph.style.paddingBottom = (this.height / this.width * 100) + '%';
+      }
+      img_sm.classList.add('loaded', 'img-responsive', '_img-blur');
     };
+    this.append(img_sm);
 
-    let img_final = new Image();
-    img_final.src = img_container.dataset.large;
-    img_final.onload = function () {
-      img_placeholder.style.paddingBottom = (this.height / this.width * 100) + "%";
-      img_final.classList.add('loaded');
-      img_final.classList.add('img-responsive');
-      img_final.classList.add('_img-final');
-      img_compressed.classList.remove('loaded');
-    };
-    img_container.append(img_final);
+    let img_lg = new Image();
+    img_lg.src = lg;
+    img_lg.onload = function () {
+      if (ph) {
+        ph.style.paddingBottom = (this.height / this.width * 100) + '%';
+      }
+      img_lg.classList.add('loaded', 'img-responsive', '_img-final');
+      img_sm.classList.remove('loaded');
+    }
+    this.append(img_lg);
   });
-}
+});

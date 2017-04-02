@@ -12,5 +12,5 @@
   <code>year = "<%- page.year %>"</code>
 <% } %>
 <% if(page.month) { %>
-  <code>month = "<%- page.month %>"</code>
+  <code>month = "<%- moment(page.date).format('MMMM') %>"</code>
 <% } %>

@@ -12,14 +12,13 @@ tags:
 - I am from **[Vancouver](https://en.wikipedia.org/wiki/Vancouver)** BC, Canada
 - I work as a Software Engineer in the **[Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley)**
 - I like to **eat** food
-- I have **photography** as a hobby
+- I take photos with my **OMD-EM10** and **iPhone 7+**
 - I want to **travel** more
-- I write about **whatever** that I am thinking about
 - I went around **[Asia](http://asiaseeit.tumblr.com/)** and wrote about it
 - My resume is **[here](/resume)**
 ---
-This site provides an identity for myself and a place to share my thoughts and
+This site provides an identity for myself and a place to share my life and
 adventures in the form of writing and photography.
 
 ---
-{% img_x me.jpg %}
+{% img_unveil me.jpg %}

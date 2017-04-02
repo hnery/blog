@@ -1,10 +1,9 @@
-<div class="_img-container" data-large=<%= img %>>
-  <div>
-  <%- image_tag([
-        img.slice(0, img.length - ext.length - 1),
-        '_compressed',
-        '.' + ext
-      ].join(''), { class: '_img-compressed' }) %>
-  </div>
+<div
+  class="_img-container"
+  data-large=<%= path %>/large/<%= img %>
+  data-small=<%= path %>/small/<%= img %>>
+  <noscript>
+    <img src=<%= path %>/large/<%= img %> class='_img-final loaded img-responsive' />
+  </noscript>
   <div class="_placeholder"></div>
 </div>

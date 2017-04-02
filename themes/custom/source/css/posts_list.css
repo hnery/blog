@@ -47,10 +47,7 @@
   width: 100%;
 }
 
-._post_preview ._title {
-  color: #DDD;
-}
-
+._post_preview ._title,
 ._post_preview ._excerpt {
   color: #DDD;
 }

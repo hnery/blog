@@ -2,10 +2,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
   max-height: 600px;
 }
 
-._img-container ._placeholder {
+._img-container ._placeholder,
+._img-carousel ._placeholder {
   padding-bottom: 75%; /* 4:3 */
 }
 
@@ -22,12 +24,17 @@
   transition: opacity 1s ease;
 }
 
-._img-container ._img-compressed {
+._img-container._img-seq-container ._img-final.loaded {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+._img-container ._img-blur {
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 
-._img-compressed {
+._img-blur {
   filter: blur(15px);
   transform: scale(1);
 }
