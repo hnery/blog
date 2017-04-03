@@ -61,6 +61,8 @@
   display: inline-block;
   text-align: left;
   width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 ._pagination {
