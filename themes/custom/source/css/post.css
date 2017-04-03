@@ -12,7 +12,6 @@
 ._post_root .row > p,
 ._post_root .row > ul,
 ._post_root .row > ol,
-._post_root .row > figure,
 ._post_root .row > h1,
 ._post_root .row > h2,
 ._post_root .row > h3,
@@ -52,13 +51,37 @@
 
 ._post_root ._date {
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-._post_root > figure {
+/* center layout */
+._post_root .row.text-center > p,
+._post_root .row.text-center > ul,
+._post_root .row.text-center > ol {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+}
+
+._pagination {
+  margin-top: 20px;
+  font-size: 0.8em;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+._pagination ._prev {
+  float: right;
+}
+
+._pagination ._next {
+  float: left;
+}
+
+/*._post_root > figure {
   max-width: var(--post-max-text-width);
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 /* Slick Customizations */
 /*._post_root .slick-prev:before,

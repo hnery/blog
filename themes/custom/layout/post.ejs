@@ -6,19 +6,35 @@
       <span class='lead'>
         <%- page.excerpt %>
       </span>
-    <%} %>
+    <% } %>
   </div>
+  <% if (page.layout === 'center') { %>
+  <div class='row text-center'>
+  <% } else { %>
   <div class='row'>
+  <% } %>
     <%- page.more %>
   </div>
   <div class='text-center lead _date'>
-    <%- date(page.date, config.date_format) %> <br />
+    <%- date(page.date, config.date_format) %>
   </div>
   <% if (!moment(page.updated).isSame(page.date, 'day')) { %>
   <div class='text-center'>
     <code>
-      Updated: <%- date(page.updated, config.date_format) %> <br />
+      Updated: <%- date(page.updated, config.date_format) %>
     </code>
   </div>
   <% } %>
+  <div class='_pagination'>
+  <% if (page.prev) { %>
+    <span class='_prev'>
+      <a href="<%- url_for(page.prev.path) %>"><%= page.prev.title %> &gt;</a>
+    </span>
+  <% } %>
+  <% if (page.next) { %>
+    <span class='_next'>
+      <a href="<%- url_for(page.next.path) %>">&lt; <%= page.next.title %></a>
+    </span>
+  <% } %>
+  </div>
 </div>

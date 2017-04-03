@@ -5,8 +5,9 @@ photos:
 - me.jpg
 tags:
 - me
+layout:
 ---
----
+&nbsp;
 #### Facts
 - My name is **Henry Lung**
 - I am from **[Vancouver](https://en.wikipedia.org/wiki/Vancouver)** BC, Canada
@@ -16,6 +17,7 @@ tags:
 - I want to **travel** more
 - I went around **[Asia](http://asiaseeit.tumblr.com/)** and wrote about it
 - My resume is **[here](/resume)**
+
 ---
 This site provides an identity for myself and a place to share my life and
 adventures in the form of writing and photography.

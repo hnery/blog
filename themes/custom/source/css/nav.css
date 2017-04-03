@@ -37,6 +37,10 @@ nav li {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+nav ._tags {
+  visibility: hidden;
+}
+
 nav li a,
 nav li a a:hover,
 nav li a a:focus {
@@ -58,5 +62,19 @@ nav li a a:focus {
   nav li._brand {
     float: none;
     text-align: right;
+  }
+
+  nav ._tags li {
+    margin: 0;
+  }
+
+  nav ._tags {
+    margin-top: 60px;
+    visibility: visible;
+    padding-right: 10px;
+  }
+
+  nav ._tag a {
+    padding: 0;
   }
 }

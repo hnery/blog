@@ -1,34 +1,32 @@
 <%- css('css/posts_list.css') %>
 <ul class='list-unstyled'>
   <% page.posts.each(function(post) { %>
-    <% if (post.layout === 'post') { %>
-      <li class='row'>
-        <a href="<%- url_for(post.path) %>">
-          <figure class='center-block _post_preview'>
-            <div class='_cover'>
-              <% if (post.photos[0]) { %>
-                <%-
-                  partial('_partial/img_loading', {
-                    path: '/' + post.slug,
-                    img: post.photos[0],
-                  })
-                %>
-              <% } %>
-            </div>
-            <h4 class='text-center _header'>
-              <span class='_title'>
-                <%= post.title %>
-              </span>
-              <% if(post.excerpt) { %>
-              <small class='_excerpt'>
-                <%- post.excerpt %>
-              </small>
-              <% } %>
-            </h4>
-          </figure>
-        </a>
-      </li>
-    <% } %>
+    <li class='row'>
+      <a href="<%- url_for(post.path) %>">
+        <figure class='center-block _post_preview'>
+          <div class='_cover'>
+            <% if (post.photos[0]) { %>
+              <%-
+                partial('_partial/img_loading', {
+                  path: '/' + post.slug,
+                  img: post.photos[0],
+                })
+              %>
+            <% } %>
+          </div>
+          <h4 class='text-center _header'>
+            <span class='_title'>
+              <%= post.title %>
+            </span>
+            <% if(post.excerpt) { %>
+            <small class='_excerpt'>
+              <%- post.excerpt %>
+            </small>
+            <% } %>
+          </h4>
+        </figure>
+      </a>
+    </li>
   <% }) %>
 </ul>
 <% if (page.next || page.prev) { %>

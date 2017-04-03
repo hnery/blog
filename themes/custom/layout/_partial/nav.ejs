@@ -5,4 +5,12 @@
     <li><%- link_to('/archives', 'Archives') %></li>
     <li><%- link_to('/about', 'About') %></li>
   </ul>
+  <% if (page.tags) { %>
+  <ul class='list-unstyled text-center _tags'>
+    <li><code><b>tags:</b></code></li>
+    <% page.tags.each(function(tag) { %>
+    <li><code class='_tag'><%- link_to(tag.path, tag.slug) %></code></li>
+    <% }) %>
+  </ul>
+  <% } %>
 </nav>

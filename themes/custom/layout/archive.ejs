@@ -1,10 +1,12 @@
-<div class='text-center center-block'>
+<div class='_archive text-center center-block' style='color: #666;'>
   <%- partial('_partial/header') %>
   <% if(!is_year() && !is_month()) { %>
+    <% if (site.categories.length > 0) { %>
     <h3>categories</h3>
     <% site.categories.each(function(category) { %>
       <code><%- link_to(category.path, category.slug) %></code>
     <% }) %>
+    <% } %>
     <h3>tags</h3>
     <% site.tags.each(function(tag) { %>
       <code><%- link_to(tag.path, tag.slug) %></code>
