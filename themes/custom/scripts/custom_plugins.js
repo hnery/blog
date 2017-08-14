@@ -11,3 +11,16 @@ hexo.extend.tag.register('img_unveil', function (args){
     "</div>"
   );
 });
+
+hexo.extend.tag.register('video_unveil', function (args){
+  const src = args[0];
+  const img = args[1];
+  const ext = src.split('.').pop();
+  return(
+    "<div class='_video-container'>" +
+    "  <video autoplay loop muted poster=" + img + " class='img-responsive'>" +
+    "    <source src='" + src + "' type='video/" + ext +"'>" +
+    "  </video>" +
+    "</div>"
+  );
+});

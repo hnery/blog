@@ -14,14 +14,10 @@
               %>
             <% } %>
           </div>
-          <h4 class='text-center _header'>
-            <span class='_title'>
-              <%= post.title %>
-            </span>
+          <h4 class='text-center _header monospace'>
+            <span class='_title'><%= post.title %></span>
             <% if(post.excerpt) { %>
-            <small class='_excerpt'>
-              <%- post.excerpt %>
-            </small>
+            <small class='_excerpt'><%- post.excerpt %></small>
             <% } %>
           </h4>
         </figure>

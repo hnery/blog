@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 10px 20px;
+  margin: 5px 10px;
   min-height: 210px;
 }
 
@@ -50,4 +50,8 @@
 ._post_preview ._title,
 ._post_preview ._excerpt {
   color: #DDD;
+}
+
+.monospace {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }

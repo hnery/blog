@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+  // img_unveil
   $("._img-container").unveil(0, function() {
     let lg = this.getAttribute('data-large');
     let sm = this.getAttribute('data-small');

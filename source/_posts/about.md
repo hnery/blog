@@ -13,7 +13,7 @@ layout:
 - I am from **[Vancouver](https://en.wikipedia.org/wiki/Vancouver)** BC, Canada
 - I work as a Software Engineer in the **[Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley)**
 - I like to **eat** food
-- I take photos with my **OMD-EM10** and **iPhone 7+**
+- I take photos with my **[gear](/gear)**
 - I want to **travel** more
 - I went around **[Asia](http://asiaseeit.tumblr.com/)** and wrote about it
 - My resume is **[here](/resume)**
