@@ -6,6 +6,7 @@ photos:
 tags:
 - food
 - best
+- newyork
 excerpt: Best Steak <br> ★★★
 ---
 &nbsp;

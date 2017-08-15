@@ -5,6 +5,7 @@ photos:
 - subway_w4.jpg
 tags:
 - photos
+- newyork
 excerpt: The Big Apple
 ---
 &nbsp;
