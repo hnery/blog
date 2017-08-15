@@ -5,10 +5,8 @@ photos:
 - me.jpg
 tags:
 - me
-layout:
 ---
-&nbsp;
-#### Facts
+### Facts
 - My name is **Henry Lung**
 - I am from **[Vancouver](https://en.wikipedia.org/wiki/Vancouver)** BC, Canada
 - I work as a Software Engineer in the **[Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley)**
