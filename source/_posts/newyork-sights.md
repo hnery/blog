@@ -39,7 +39,9 @@ Never really craved pizza. Also never understood cheese pizza. However I do _get
 ### One World Trade Center
 I didn't actually go in. Just saw it from the base of whether the other two buildings use to stand.
 
-{% img_unveil freedom.jpg %}
+| |
+|-|
+|{% img_unveil freedom.jpg %}|
 
 ### Occulus
 Some fancy architecture for a train station that includes some fancy shops. And it's close to One World Trade Center. That was all I gathered as I walked through it to check out the 9/11 Memorial area.
