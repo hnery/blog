@@ -7,7 +7,13 @@
   </ul>
   <% if (page.tags) { %>
   <ul class='list-unstyled text-center _tags'>
-    <li><code><b>tags:</b></code></li>
+    <a href="#with-tags" class="with-tags" id="with-tags">
+      <li><code><b>tags(+)</b></code></li>
+    </a>
+    <a href="#without-tags" class="without-tags" id="without-tags">
+      <li><code><b>tags(-)</b></code></li>
+    </a>
+    <li id="tags-header"><code><b>tags:</b></code></li>
     <% page.tags.each(function(tag) { %>
     <li><code class='_tag'><%- link_to(tag.path, tag.slug) %></code></li>
     <% }) %>

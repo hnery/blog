@@ -1,14 +1,14 @@
 <%- css('css/post.css') %>
 <div class='_post_root'>
-  <div class='text-center'>
-    <h1><%- page.title %></h1>
-    <% if(page.excerpt) { %>
-      <span class='monospace'>
-        <%- page.excerpt %>
-      </span>
-    <% } %>
-  </div>
   <div class='row text-center'>
+    <div class='_title'>
+      <h1><%- page.title %></h1>
+      <% if(page.excerpt) { %>
+        <span class='monospace'>
+          <%- page.excerpt %>
+        </span>
+      <% } %>
+    </div>
     <%- page.more %>
   </div>
   <div class='text-center monospace _date'>

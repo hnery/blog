@@ -1,4 +1,4 @@
-html, body {
+#collapsetagshtml, body {
   overflow-x: hidden;
 }
 
@@ -37,16 +37,55 @@ nav li {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-nav ._tags {
-  visibility: hidden;
-}
-
 nav li a,
 nav li a a:hover,
 nav li a a:focus {
   padding: 10px;
   text-decoration: none;
   color: #666;
+}
+
+nav ._tags {
+  position:fixed;
+  left: 0px;
+  bottom: 0px;
+}
+
+nav ._tag a {
+  padding: 0;
+}
+
+nav ._tags ._tag {
+  display: none;
+}
+
+nav ._tags li {
+  margin: 0 4px;
+  float: left;
+}
+
+#without-tags {
+  display: none;
+}
+
+#with-tags:target + #without-tags {
+  display: inline;
+}
+
+#with-tags:target {
+  display: none;
+}
+
+#with-tags li {
+  opacity: 0.3;
+}
+
+#tags-header {
+  display: none;
+}
+
+nav #with-tags:target ~ li ._tag {
+  display: inline;
 }
 
 @media(min-width:1100px) {
@@ -66,15 +105,32 @@ nav li a a:focus {
 
   nav ._tags li {
     margin: 0;
+    float: none;
+    opacity: 1;
   }
 
   nav ._tags {
+    position: relative;
     margin-top: 60px;
-    visibility: visible;
     padding-right: 10px;
+  }
+
+  nav ._tags ._tag {
+    display: inline;
   }
 
   nav ._tag a {
     padding: 0;
+  }
+
+  #without-tags,
+  #with-tags,
+  #with-tags:target + #without-tags,
+  #with-tags:target {
+    display: none;
+  }
+
+  #tags-header {
+    display: block;
   }
 }

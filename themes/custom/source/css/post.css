@@ -14,9 +14,16 @@ body h1,
   margin-right: auto;
 }
 
-._post_root .row > p,
-._post_root .row > ul,
-._post_root .row > ol,
+._post_root ._title {
+  margin: 40px;
+}
+
+._post_root .row > h1,
+._post_root .row > h2,
+._post_root .row > h3 {
+  margin-top: 40px;
+}
+
 ._post_root .row > h1,
 ._post_root .row > h2,
 ._post_root .row > h3,
@@ -26,7 +33,17 @@ body h1,
   max-width: var(--post-max-text-width);
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+}
+
+._post_root .row > p,
+._post_root .row > ul,
+._post_root .row > ol {
+  max-width: var(--post-max-text-width);
+  display: inline-block;
+  text-align: justify;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 ._post_root .row > ul,
@@ -36,12 +53,12 @@ body h1,
 
 ._post_root .row > ._img-container,
 ._post_root .row > ._video-container {
-  margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-._post_root table {
+._post_root .row > table {
   margin-top: 10px;
   margin-bottom: 10px;
   table-layout: fixed;
@@ -66,17 +83,6 @@ body h1,
   border: none;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-/* center layout */
-._post_root .row.text-center > p,
-._post_root .row.text-center > ul,
-._post_root .row.text-center > ol {
-  display: inline-block;
-  text-align: left;
-  width: auto;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 ._pagination {
