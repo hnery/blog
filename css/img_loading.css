@@ -1,0 +1,50 @@
+._img-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  max-height: 600px;
+}
+
+._img-container ._placeholder,
+._img-carousel ._placeholder {
+  padding-bottom: 75%; /* 4:3 */
+}
+
+._img-container img {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: auto;
+  height: 100%;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+._img-container._img-seq-container ._img-final.loaded {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+._img-container ._img-blur {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+._img-blur {
+  filter: blur(15px);
+  transform: scale(1);
+}
+
+/* Post Preview */
+._post_preview ._img-container img.loaded {
+  opacity: 0.5;
+}
+
+/* Post */
+._post_root ._img-container img.loaded {
+  opacity: 1;
+}

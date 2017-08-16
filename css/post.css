@@ -1,0 +1,111 @@
+:root {
+  --post-max-text-width: 640px;
+}
+
+body h1,
+.monospace {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+._post_root {
+  color: #666;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+._post_root ._title {
+  margin: 40px;
+}
+
+._post_root .row > h1,
+._post_root .row > h2,
+._post_root .row > h3 {
+  margin-top: 40px;
+}
+
+._post_root .row > h1,
+._post_root .row > h2,
+._post_root .row > h3,
+._post_root .row > h4,
+._post_root .row > h5,
+._post_root .row > h6 {
+  max-width: var(--post-max-text-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+._post_root .row > p,
+._post_root .row > ul,
+._post_root .row > ol {
+  max-width: var(--post-max-text-width);
+  display: inline-block;
+  text-align: justify;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+._post_root .row > ul,
+._post_root .row > ol {
+  padding-left: 30px;
+}
+
+._post_root .row > ._img-container,
+._post_root .row > ._video-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+._post_root .row > table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  table-layout: fixed;
+  border-collapse: separate;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+._post_root td { border: 5px solid white }
+._post_root tr:first-child td { border-top: 0; }
+._post_root tr:last-child td { border-bottom: 0; }
+._post_root td:first-child { border-left: 10px solid white; }
+._post_root td:last-child { border-right: 10px solid white; }
+
+._post_root ._date {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+._post_root blockquote {
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+._pagination {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+._pagination ._prev {
+  float: right;
+}
+
+._pagination ._next {
+  float: left;
+}
+
+/*._post_root > figure {
+  max-width: var(--post-max-text-width);
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+/* Slick Customizations */
+/*._post_root .slick-prev:before,
+._post_root .slick-next:before {
+  color: #666;
+}*/
