@@ -46,7 +46,7 @@ nav li a a:focus {
 }
 
 nav ._tags {
-  position:fixed;
+  position: fixed;
   left: 0px;
   bottom: 0px;
 }
