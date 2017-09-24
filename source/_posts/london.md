@@ -16,12 +16,11 @@ Back in early May, I was fortunate enough to have the opportunity to travel to L
 
 The first thing that stood out to me was the Gothic (I think?) architecture. I've never seem so many buildings exhibiting that style where it felt commonplace. Granted, I was probably walking around the more touristy part of London. Nevertheless, it was definitely different from what I was use to in North America. As for what these buildings are, I don't really remember. The obvious one is Big Ben, but the others should be buildings of prominence as well.
 
-{% img_unveil westminster_maybe2.jpg %}
-| | |
-|-|-|
-|{% img_unveil bigben.jpg %}|{% img_unveil westminster_maybe.jpg %}|
-
-{% img_unveil some_church.jpg %}
+{% photo_grid %}
+westminster_maybe2.jpg 2
+bigben.jpg 1|westminster_maybe.jpg 1
+some_church.jpg 2
+{% endphoto_grid %}
 
 ### Buckingham Palace
 
@@ -31,14 +30,11 @@ Home of the Queen; it's quite a fancy place. I mean, check out the detail on the
 
 I didn't even notice the chain until I read about it just now. Anyways, that's just the gate. The guards were quite cool too. I'm curious on what they think of tourists. Getting stared at all day by foreigners must be a bit odd. And if you look at the last picture, you can see a mix of the old and new guard.
 
-| |
-|-|
-|{% img_unveil palace_gate.jpg %}|
-
-| | |
-|-|-|
-|{% img_unveil palace_guard_standing.jpg %}|{% img_unveil palace_guard_marching.jpg %}|
-{% img_unveil palace_wide.jpg %}
+{% photo_grid %}
+palace_gate.jpg 2
+palace_guard_standing.jpg 1|palace_guard_marching.jpg 1
+palace_wide.jpg 2
+{% endphoto_grid %}
 
 ### Chinatown
 And then there is of course, Chinatown. A staple in any major city.

@@ -23,25 +23,22 @@ The best steak I ever had. And had **[again](/peterluger)**. The place was exact
 ### Sushi on Jones
 Sushi restaurant that only has 6 seats, and they were all **outside**. Luckily it wasn't raining. Unluckily, it was blazing hot that day. Sushi was definitely above average and the experience was unique. Kind of overpriced.
 
-{% img_unveil sushi_on_jones.jpg %}
-
-| | | |
-|-|-|-|
-| {% img_unveil sushi_on_jones_sign.jpg %} | {% img_unveil wagyu_uni.jpg %} | {% img_unveil sushi_on_jones_chef.jpg %} |
+{% photo_grid %}
+sushi_on_jones.jpg 3
+sushi_on_jones_sign.jpg 1|wagyu_uni.jpg 1|sushi_on_jones_chef.jpg 1
+{% endphoto_grid %}
 
 ### Joe's Pizza
 Never really craved pizza. Also never understood cheese pizza. However I do _get_ **Joe's Pizza**, not sure why. I always saw pizza as a cheap way to feed a bunch of people in some sort of gathering. Probably something to do with my experience in university.
 
-| | |
-|-|-|
-| {% img_unveil joes.jpg %} | {% img_unveil joes_pizza.jpg %} |
+{% photo_grid %}
+joes.jpg 1|joes_pizza.jpg 1
+{% endphoto_grid %}
 
 ### One World Trade Center
 I didn't actually go in. Just saw it from the base of whether the other two buildings use to stand.
 
-| |
-|-|
-|{% img_unveil freedom.jpg %}|
+{% img_unveil freedom.jpg %}
 
 ### Occulus
 Some fancy architecture for a train station that includes some fancy shops. And it's close to One World Trade Center. That was all I gathered as I walked through it to check out the 9/11 Memorial area.

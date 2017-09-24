@@ -6,8 +6,7 @@
   max-height: 600px;
 }
 
-._img-container ._placeholder,
-._img-carousel ._placeholder {
+._img-container ._placeholder {
   padding-bottom: 75%; /* 4:3 */
 }
 
@@ -24,11 +23,6 @@
   transition: opacity 1s ease;
 }
 
-._img-container._img-seq-container ._img-final.loaded {
-  -webkit-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
-}
-
 ._img-container ._img-blur {
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -42,6 +36,10 @@
 /* Post Preview */
 ._post_preview ._img-container img.loaded {
   opacity: 0.5;
+}
+
+._post_preview ._img-container ._placeholder {
+  padding-bottom: 66%;
 }
 
 /* Post */

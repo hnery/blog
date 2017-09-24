@@ -5,6 +5,7 @@ photos:
 - me.jpg
 tags:
 - me
+excerpt: Welcome to my blog
 ---
 ### Facts
 - My name is **Henry Lung**

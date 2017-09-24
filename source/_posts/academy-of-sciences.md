@@ -40,9 +40,7 @@ All I can really say about this picture is that it looks like a lizard. Pretty s
 ### Gecko
 I think this is a gecko. What's the difference between a gecko and a lizard? I'm not sure, so I looked it up. Turns out a gecko is a type of lizard. It's also the mascot for Geico. Yeah... I'm still not sure if this is a gecko.
 
-| |
-|-|
-|{% img_unveil reptile.jpg %}|
+{% img_unveil reptile.jpg %}
 
 ### Stingray
 
