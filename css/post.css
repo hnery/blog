@@ -66,13 +66,13 @@ body h1,
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-._post_root td { border: 5px solid white; vertical-align: top; }
+._post_root td { border: 5px solid white; vertical-align: middle; }
 ._post_root tr:first-child td { border-top: 0; }
 ._post_root tr:last-child td { border-bottom: 0; }
-._post_root td:first-child { border-left: 10px solid white; }
-._post_root td:last-child { border-right: 10px solid white; }
 
 ._post_root ._date {
   margin-top: 20px;

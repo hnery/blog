@@ -8,8 +8,9 @@ $(document).ready(function() {
     let img_sm = new Image();
     img_sm.src = sm;
     img_sm.onload = function () {
-      if (ph) {
-        ph.style.paddingBottom = (this.height / this.width * 100) + '%';
+      // Don't apply to posts_list
+      if (ph && !ph.closest('._post_preview')) {
+        ph.style.paddingBottom = (this.naturalHeight / this.naturalWidth * 100) + '%';
       }
       img_sm.classList.add('loaded', 'img-responsive', '_img-blur');
     };
@@ -18,8 +19,9 @@ $(document).ready(function() {
     let img_lg = new Image();
     img_lg.src = lg;
     img_lg.onload = function () {
-      if (ph) {
-        ph.style.paddingBottom = (this.height / this.width * 100) + '%';
+      // Don't apply to posts_list
+      if (ph && !ph.closest('._post_preview')) {
+        ph.style.paddingBottom = (this.naturalHeight / this.naturalWidth * 100) + '%';
       }
       img_lg.classList.add('loaded', 'img-responsive', '_img-final');
       img_sm.classList.remove('loaded');
