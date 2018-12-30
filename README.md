@@ -1,3 +1,3 @@
 # hnerylnug
 
-Source code for my website at [hnerylnug.com](www.hnerylnug.com).
+Source code for my website at [hnerylnug.com](http://www.hnerylnug.com).
